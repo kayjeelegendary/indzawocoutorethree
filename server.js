@@ -21,7 +21,7 @@ const publicPath = path.join(__dirname, 'client', 'public');
 const port = process.env.PORT || 5000;
 
 const app = express();
-mongoose.connect("mongodb://localhost:27017/mydbkg");
+mongoose.connect("mongodb://uhq3eksvtmgg0ruub7m4:EHsym3vQnmSBxdnRl32X@btbmpzr6nehyrko-mongodb.services.clever-cloud.com:27017/btbmpzr6nehyrko");
 
 const urlencodedParser = bodyParser.urlencoded({ extended: true });
 
